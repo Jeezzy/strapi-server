@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lives",
+  "info": {
+    "singularName": "life",
+    "pluralName": "lives",
+    "displayName": "life"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "photos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
